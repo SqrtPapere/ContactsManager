@@ -10,7 +10,7 @@ This GUI application supports the basic operations needed for a contact manager.
 + Visualization of all contacts: the application starts up showing all contacts by first and last names, email, phone number, free-text notes. The user is allowed to order the list of contacts by field.
 + Single-contact visualization: the user is allowed to click on a row of the mangaer to view a single contact. This visualization gives the option to delete the contact and modify it.
 + Insertion of new contact: the user can create a new contact by clicking on ```Add new``` button.
-+ Contact persistence: the GUI saves the contact list persistently on a Postgres database using APIs on an Apache web-server.
++ Contact persistence: the GUI saves the contact list persistently on a Postgres database using APIs provided in this [directory](https://github.com/SqrtPapere/ContactsManager/tree/master/postgresphpscripts) on an Apache web-server.
 + Contact tagging and tag search: the user is allowed to associate tags to contacts and can filter contact visualization by tag.
 + Contact editing: when the user views a contact, he can edit it as well.
 + Full-text search: the user can enter search terms to filter contact visualization to contacts with those terms in one or more fields.
@@ -53,8 +53,6 @@ Requires Qt 5.9.2 (or later, not tested in previous versions)
 #define TABLEMODEL_H
 #define IP "<insert IP>"
 ```
-
-Requires Qt 5.9.2 (or later, not tested in previous versions)
 
 ### OSX
 
