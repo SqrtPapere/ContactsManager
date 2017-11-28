@@ -30,7 +30,6 @@ void TableModel::setUi(Ui::MainWindow *u){
 
 // remove all data from internal data structures, called every time before the download
 void TableModel::Clear(void){
-    modelcont->resetInternalData();
     modelcont->removeRows(0, modelcont->rowCount());
 }
 
