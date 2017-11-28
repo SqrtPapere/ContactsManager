@@ -58,21 +58,21 @@ Requires Qt 5.9.2 (or later, not tested in previous versions)
 
 ```If``` there is not any path to your installed qt in echo $PATH, set it like this:
 
-  ```sudo nano .bash_profile```
+  &nbsp; &nbsp; &nbsp; &nbsp; ```sudo nano .bash_profile```
   
-  and add:
+  &nbsp; &nbsp; &nbsp; &nbsp; and add:
 
-  ```PATH=“/usr/local/path-to-your-qt/bin:$PATH”```
+  &nbsp; &nbsp; &nbsp; &nbsp; ```PATH=“/usr/local/path-to-your-qt/bin:$PATH”```
   
-  ```export PATH```
+  &nbsp; &nbsp; &nbsp; &nbsp;  ```export PATH```
 
 ```Else``` clone the repository and in the source code directory:
 
-```qmake -makefile```
+  &nbsp; &nbsp; &nbsp; &nbsp; ```qmake -makefile```
 
-```make```
+  &nbsp; &nbsp; &nbsp; &nbsp; ```make```
 
-```open ContactsManager.app```
+  &nbsp; &nbsp; &nbsp; &nbsp; ```open ContactsManager.app```
 
 
 QDarkStylesheet was used for a better looking GUI (highly recommended) and can be found in [this GitHub Repo](https://github.com/ColinDuquesnoy/QDarkStyleSheet)
