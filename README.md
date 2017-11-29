@@ -37,9 +37,7 @@ Qt provides view widgets such as QListView, QTreeView, and QTableView. Each of t
 ### Screen shots of the GUI
 
 [![Screen_Shot_2017-11-28_at_22.38.14.png](https://s18.postimg.org/rdrn3p421/Screen_Shot_2017-11-28_at_22.38.14.png)](https://postimg.org/image/nheb7pj2d/)
-
 [![Screen_Shot_2017-11-28_at_22.39.08.png](https://s18.postimg.org/88odtz7eh/Screen_Shot_2017-11-28_at_22.39.08.png)](https://postimg.org/image/9npyip8hh/)
-
 [![Screen_Shot_2017-11-28_at_22.39.33.png](https://s18.postimg.org/g1f1lyl3d/Screen_Shot_2017-11-28_at_22.39.33.png)](https://postimg.org/image/ge6fs53d1/)
 
 ## Build
