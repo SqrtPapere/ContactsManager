@@ -51,7 +51,13 @@ Requires Qt 5.9.2 (or later, not tested in previous versions)
 #define TABLEMODEL_H
 #define IP "<insert IP>"
 ```
+Then you also need to change:
 
+```
+$dbname      = "dbname = <insert here your db name>";
+$credentials = "user = <insert here your user name> password=<insert here your psw>";
+```
+in all the [postgresphphscripts](https://github.com/SqrtPapere/ContactsManager/tree/master/postgresphpscripts)
 ### OSX
 
 ```If``` there is not any path to your installed qt in echo $PATH, set it like this:
